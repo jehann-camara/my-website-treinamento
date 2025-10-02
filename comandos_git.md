@@ -2,12 +2,17 @@
 
 # Comandos Git no terminal Git Bash ( Windows) 
 
-    git help
     dir
     clear
+    git help
     git status
+    git add --all
+    git commit
+    git commit - m "Mensagem ao comitar"
     git diff
     git restore
+    git log
+    git log --oneline
 
 # Comandos de configuração do Git.
 
@@ -37,7 +42,16 @@
 # Mostra alterações feitas em arquivos commitados.
     git diff
 
-# Pós versionamento, um arquivo pode estar em 3 status: Working - Staged - Commited    
+# Pós versionamento, um arquivo pode estar em 3 status: Working - Staged - Commited   
+
+# Verifica o Log de commits  
+    git log
+
+# Pulando o Staged - do status: Working para o Commited  
+     git commit -a -m "Commit pulando o Staging."
+
+
+
     
     
 
