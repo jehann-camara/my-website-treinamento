@@ -1,0 +1,42 @@
+# // By Jehann Câmara.
+
+# Comandos Git no terminal Git Bash ( Windows) 
+
+    git help
+    dir
+    clear
+    git status
+
+# Comandos de configuração do Git.
+
+    git config --global user.name "Jehann Câmara" 
+    git config --global user.email 	meuEmail@outlook.com
+    git config --global init.default branch main <!-- Ou branch master  -->
+
+# Inicializar diretótio Git, após estar dentro do diretório desejado.( criando um sub-diretório oculto e empty).
+
+    git init
+
+# Tracking dos arquivos no Git.
+    git add index.html
+    git add image.jpg
+
+# Remover do Tracking (Exemplo).
+    git rm --cached index.html
+
+# add todos arquivos do diretório no Tracking. Adicionados, mas não comitados ainda(Staged - pré commit).
+    git add --all
+    git add .
+
+# Primeiro Snapshot após commit.
+    git commit
+    git commit - m "Primeiro commit de todos os arquivos Staged."
+     
+    
+    
+
+    
+
+
+
+
