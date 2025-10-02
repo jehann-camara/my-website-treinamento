@@ -6,6 +6,8 @@
     dir
     clear
     git status
+    git diff
+    git restore
 
 # Comandos de configuração do Git.
 
@@ -24,14 +26,18 @@
 # Remover do Tracking (Exemplo).
     git rm --cached index.html
 
-# add todos arquivos do diretório no Tracking. Adicionados, mas não comitados ainda(Staged - pré commit).
+# add todos arquivos do diretório no Tracking. Adicionados, mas não comitados ainda (Staged=preparado - pré commit).
     git add --all
     git add .
 
 # Primeiro Snapshot após commit.
     git commit
     git commit - m "Primeiro commit de todos os arquivos Staged."
-     
+
+# Mostra alterações feitas em arquivos commitados.
+    git diff
+
+# Pós versionamento, um arquivo pode estar em 3 status: Working - Staged - Commited    
     
     
 
